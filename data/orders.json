@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "orderCode": "DH260711-1809",
+    "customerName": "KIỂM TRA HỆ THỐNG",
+    "phone": "0000000000",
+    "address": "Đơn thử - bỏ qua",
+    "note": "Đơn test từ Claude, không phải đơn thật",
+    "paymentMethod": "Tiền mặt",
+    "items": [
+      {
+        "name": "Trà chanh (test)",
+        "size": "M",
+        "qty": 1,
+        "toppings": [],
+        "lineTotal": 0
+      }
+    ],
+    "total": 0,
+    "status": "new",
+    "createdAt": "2026-07-11T15:39:14.505Z"
+  }
+]
