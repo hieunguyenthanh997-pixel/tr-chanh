@@ -1,3 +1,5 @@
+import { appendOrder } from "./_lib/orders-store.js";
+
 const STATUS_LABEL = {
   new: "🆕 Đơn mới - chờ xác nhận",
 };
@@ -104,6 +106,19 @@ export default async function handler(req, res) {
     res.status(502).json({ ok: false, error: "Lỗi kết nối Telegram" });
     return;
   }
+
+  await appendOrder({
+    orderCode,
+    customerName,
+    phone,
+    address: address || "",
+    note: note || "",
+    paymentMethod,
+    items,
+    total,
+    status: "new",
+    createdAt: new Date().toISOString(),
+  });
 
   res.status(200).json({ ok: true, orderCode });
 }

@@ -1,3 +1,5 @@
+import { updateOrderStatus } from "./_lib/orders-store.js";
+
 const STATUS_LABEL = {
   confirm: "✅ Đã xác nhận",
   making: "🧋 Đang pha chế",
@@ -10,6 +12,11 @@ const FINAL_STATES = new Set(["delivered", "cancel"]);
 
 function stripOldStatusLine(text) {
   return text.replace(/\n*➡️ Trạng thái:.*$/s, "");
+}
+
+function extractOrderCode(text) {
+  const m = /ĐƠN HÀNG MỚI - (\S+)/.exec(text || "");
+  return m ? m[1] : null;
 }
 
 export default async function handler(req, res) {
@@ -90,6 +97,11 @@ export default async function handler(req, res) {
     });
   } catch {
     // ignore, still answer callback below
+  }
+
+  const orderCode = extractOrderCode(baseText);
+  if (orderCode) {
+    await updateOrderStatus(orderCode, action);
   }
 
   await answerCallback(token, cq.id, `Đã cập nhật: ${label}`);

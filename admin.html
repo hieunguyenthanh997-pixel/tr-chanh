@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quản trị đơn hàng - embe Tít</title>
+<link rel="stylesheet" href="/admin.css" />
+</head>
+<body>
+  <div id="login-screen" class="login-screen">
+    <form id="login-form" class="login-box">
+      <h1>🔒 Quản trị embe Tít</h1>
+      <input type="password" id="password-input" placeholder="Nhập mật khẩu quản trị" required />
+      <button type="submit">Đăng nhập</button>
+      <p id="login-error" class="error" hidden>Sai mật khẩu, thử lại.</p>
+    </form>
+  </div>
+
+  <div id="dashboard" class="dashboard" hidden>
+    <header class="admin-header">
+      <h1>📋 Đơn hàng - embe Tít</h1>
+      <div>
+        <button id="refresh-btn">↻ Làm mới</button>
+        <button id="logout-btn">Đăng xuất</button>
+      </div>
+    </header>
+
+    <div class="stats-row" id="stats-row"></div>
+
+    <div id="orders-list" class="orders-list"></div>
+  </div>
+
+  <script src="/admin.js"></script>
+</body>
+</html>
