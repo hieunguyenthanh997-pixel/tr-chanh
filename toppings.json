@@ -1,0 +1,7 @@
+[
+  { "id": "tran-chau-den", "name": "Trân châu đen", "price": 5000 },
+  { "id": "tran-chau-trang", "name": "Trân châu trắng (bạch quả)", "price": 5000 },
+  { "id": "thach-dua", "name": "Thạch dừa", "price": 5000 },
+  { "id": "pudding", "name": "Pudding trứng", "price": 6000 },
+  { "id": "kem-cheese", "name": "Kem cheese", "price": 8000 }
+]

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>embe Tít - Đặt trà chanh, trà sữa</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🧋 embe Tít</h1>
+    <p class="tagline">Trà chanh - Trà sữa tươi mỗi ngày</p>
+  </header>
+
+  <main id="menu-screen">
+    <div id="menu-list" class="menu-list"></div>
+  </main>
+
+  <button id="cart-fab" class="cart-fab" hidden>
+    🛒 <span id="cart-count">0</span> món · <span id="cart-total">0đ</span>
+  </button>
+
+  <div id="cart-drawer" class="drawer" hidden>
+    <div class="drawer-inner">
+      <div class="drawer-header">
+        <h2>Giỏ hàng</h2>
+        <button id="close-cart" class="icon-btn">✕</button>
+      </div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-summary">
+        <span>Tổng cộng</span>
+        <strong id="cart-summary-total">0đ</strong>
+      </div>
+
+      <form id="checkout-form">
+        <label>Họ tên khách <span class="req">*</span>
+          <input type="text" name="customerName" required placeholder="VD: Nguyễn Thị A" />
+        </label>
+        <label>Số điện thoại <span class="req">*</span>
+          <input type="tel" name="phone" required placeholder="09xxxxxxxx" />
+        </label>
+        <label>Địa chỉ giao (để trống nếu tự đến lấy)
+          <input type="text" name="address" placeholder="Số nhà, đường..." />
+        </label>
+        <label>Ghi chú
+          <input type="text" name="note" placeholder="VD: ít đá, ít đường..." />
+        </label>
+
+        <fieldset class="payment-choice">
+          <legend>Thanh toán</legend>
+          <label class="radio"><input type="radio" name="paymentMethod" value="cod" checked /> Tiền mặt khi nhận (COD)</label>
+          <label class="radio"><input type="radio" name="paymentMethod" value="transfer" /> Chuyển khoản QR</label>
+        </fieldset>
+
+        <button type="submit" id="submit-order" class="submit-btn">Đặt hàng</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="item-modal" class="modal" hidden>
+    <div class="modal-inner">
+      <button id="close-modal" class="icon-btn modal-close">✕</button>
+      <h3 id="modal-item-name"></h3>
+      <div class="modal-section">
+        <p class="modal-label">Size</p>
+        <div id="modal-sizes" class="chip-row"></div>
+      </div>
+      <div class="modal-section">
+        <p class="modal-label">Topping thêm</p>
+        <div id="modal-toppings" class="topping-list"></div>
+      </div>
+      <div class="modal-section qty-row">
+        <p class="modal-label">Số lượng</p>
+        <div class="qty-control">
+          <button type="button" id="qty-minus">-</button>
+          <span id="qty-value">1</span>
+          <button type="button" id="qty-plus">+</button>
+        </div>
+      </div>
+      <button id="add-to-cart" class="submit-btn">Thêm vào giỏ - <span id="modal-price">0đ</span></button>
+    </div>
+  </div>
+
+  <div id="success-screen" class="modal" hidden>
+    <div class="modal-inner success">
+      <div class="success-icon">✅</div>
+      <h2>Đặt hàng thành công!</h2>
+      <p>Mã đơn: <strong id="success-code"></strong></p>
+      <p class="success-note">Quán sẽ liên hệ xác nhận qua số điện thoại bạn cung cấp.</p>
+      <div id="qr-block" class="qr-block" hidden>
+        <p class="modal-label">Quét mã để chuyển khoản</p>
+        <img id="qr-image" alt="QR chuyển khoản" />
+        <p id="qr-account" class="qr-account"></p>
+      </div>
+      <button id="new-order-btn" class="submit-btn">Đặt đơn khác</button>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

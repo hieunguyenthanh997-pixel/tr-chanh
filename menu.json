@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tc-truyen-thong",
+    "category": "Trà chanh",
+    "name": "Trà chanh truyền thống",
+    "prices": { "M": 15000, "L": 20000 }
+  },
+  {
+    "id": "tc-mat-ong",
+    "category": "Trà chanh",
+    "name": "Trà chanh mật ong",
+    "prices": { "M": 18000, "L": 23000 }
+  },
+  {
+    "id": "tc-tac",
+    "category": "Trà chanh",
+    "name": "Trà quất (tắc)",
+    "prices": { "M": 16000, "L": 21000 }
+  },
+  {
+    "id": "tc-dao",
+    "category": "Trà chanh",
+    "name": "Trà chanh đào",
+    "prices": { "M": 20000, "L": 25000 }
+  },
+  {
+    "id": "ts-truyen-thong",
+    "category": "Trà sữa",
+    "name": "Trà sữa truyền thống",
+    "prices": { "M": 20000, "L": 25000 }
+  },
+  {
+    "id": "ts-tran-chau",
+    "category": "Trà sữa",
+    "name": "Trà sữa trân châu đường đen",
+    "prices": { "M": 25000, "L": 30000 }
+  },
+  {
+    "id": "ts-matcha",
+    "category": "Trà sữa",
+    "name": "Trà sữa matcha",
+    "prices": { "M": 25000, "L": 30000 }
+  },
+  {
+    "id": "ts-khoai-mon",
+    "category": "Trà sữa",
+    "name": "Trà sữa khoai môn",
+    "prices": { "M": 25000, "L": 30000 }
+  },
+  {
+    "id": "ts-socola",
+    "category": "Trà sữa",
+    "name": "Trà sữa socola",
+    "prices": { "M": 22000, "L": 27000 }
+  }
+]
