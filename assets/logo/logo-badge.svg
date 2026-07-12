@@ -58,7 +58,10 @@
              Q 664,438 630,454 Q 610,398 566,430 Q 544,388 512,420
              Q 480,388 458,430 Q 414,398 394,454 Q 360,438 338,502 Z" fill="url(#hairG)"/>
     <!-- hair shine -->
-    <path d="M 400,330 Q 500,282 620,322 Q 560,306 500,318 Q 440,330 400,330 Z" fill="#8a575d" stroke="none" opacity="0.9"/>
+    <g fill="none" stroke="#7d4d52" stroke-width="9" stroke-linecap="round" opacity="0.55">
+      <path d="M 420,330 Q 470,300 540,302"/>
+      <path d="M 450,352 Q 495,328 550,328"/>
+    </g>
 
     <!-- hair bows -->
     <g fill="#ff4f9a">
