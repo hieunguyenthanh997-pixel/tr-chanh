@@ -1,56 +1,152 @@
 [
   {
-    "id": "tc-truyen-thong",
-    "category": "Trà chanh",
-    "name": "Trà chanh truyền thống",
+    "id": "ht-sui-bot",
+    "category": "Hồng trà",
+    "name": "Hồng trà sủi bọt",
+    "prices": { "M": 7000, "L": 12000 }
+  },
+  {
+    "id": "ht-mat-ong",
+    "category": "Hồng trà",
+    "name": "Hồng trà mật ong",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "ht-chanh-mat-ong",
+    "category": "Hồng trà",
+    "name": "Hồng trà chanh mật ong",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "ht-xi-muoi",
+    "category": "Hồng trà",
+    "name": "Hồng trà xí muội",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "ht-dao",
+    "category": "Hồng trà",
+    "name": "Hồng trà đào",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "lt-sui-bot",
+    "category": "Lục trà",
+    "name": "Lục trà sủi bọt",
+    "prices": { "M": 7000, "L": 12000 }
+  },
+  {
+    "id": "lt-mat-ong",
+    "category": "Lục trà",
+    "name": "Lục trà mật ong",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "lt-chanh-mat-ong",
+    "category": "Lục trà",
+    "name": "Lục trà chanh mật ong",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "lt-xi-muoi",
+    "category": "Lục trà",
+    "name": "Lục trà xí muội",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "lt-dao",
+    "category": "Lục trà",
+    "name": "Lục trà đào",
+    "prices": { "M": 17000, "L": 22000 }
+  },
+  {
+    "id": "tra-bi-dao",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà bí đao",
     "prices": { "M": 15000, "L": 20000 }
   },
   {
-    "id": "tc-mat-ong",
-    "category": "Trà chanh",
-    "name": "Trà chanh mật ong",
-    "prices": { "M": 18000, "L": 23000 }
+    "id": "tra-xanh-kiwi",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà xanh kiwi",
+    "prices": { "L": 25000 }
   },
   {
-    "id": "tc-tac",
-    "category": "Trà chanh",
-    "name": "Trà quất (tắc)",
-    "prices": { "M": 16000, "L": 21000 }
+    "id": "nuoc-chanh-xi-muoi",
+    "category": "Trà trái cây & giải khát",
+    "name": "Nước chanh xí muội",
+    "prices": { "L": 25000 }
   },
   {
-    "id": "tc-dao",
-    "category": "Trà chanh",
-    "name": "Trà chanh đào",
-    "prices": { "M": 20000, "L": 25000 }
+    "id": "tra-luu-do",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà lựu đỏ",
+    "prices": { "L": 25000 }
   },
   {
-    "id": "ts-truyen-thong",
+    "id": "tra-luu-do-thach-dua",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà lựu đỏ thạch dừa",
+    "prices": { "L": 29000 }
+  },
+  {
+    "id": "tra-nho-do",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà nho đỏ",
+    "prices": { "L": 25000 }
+  },
+  {
+    "id": "tra-nho-do-thach-dua",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà nho đỏ thạch dừa",
+    "prices": { "L": 29000 }
+  },
+  {
+    "id": "tra-nho-do-thach-giot-nuoc",
+    "category": "Trà trái cây & giải khát",
+    "name": "Trà nho đỏ thạch giọt nước",
+    "prices": { "L": 29000 }
+  },
+  {
+    "id": "ts-hong-tra",
     "category": "Trà sữa",
-    "name": "Trà sữa truyền thống",
-    "prices": { "M": 20000, "L": 25000 }
+    "name": "Hồng trà sữa",
+    "prices": { "M": 14000, "L": 19000 }
   },
   {
-    "id": "ts-tran-chau",
+    "id": "ts-luc-tra",
     "category": "Trà sữa",
-    "name": "Trà sữa trân châu đường đen",
-    "prices": { "M": 25000, "L": 30000 }
+    "name": "Lục trà sữa",
+    "prices": { "M": 14000, "L": 19000 }
   },
   {
-    "id": "ts-matcha",
+    "id": "ts-hong-tra-mat-ong",
     "category": "Trà sữa",
-    "name": "Trà sữa matcha",
-    "prices": { "M": 25000, "L": 30000 }
+    "name": "Hồng trà sữa mật ong",
+    "prices": { "M": 19000, "L": 24000 }
+  },
+  {
+    "id": "ts-luc-tra-mat-ong",
+    "category": "Trà sữa",
+    "name": "Lục trà sữa mật ong",
+    "prices": { "M": 19000, "L": 24000 }
   },
   {
     "id": "ts-khoai-mon",
     "category": "Trà sữa",
     "name": "Trà sữa khoai môn",
-    "prices": { "M": 25000, "L": 30000 }
+    "prices": { "M": 19000, "L": 24000 }
   },
   {
     "id": "ts-socola",
     "category": "Trà sữa",
     "name": "Trà sữa socola",
-    "prices": { "M": 22000, "L": 27000 }
+    "prices": { "M": 19000, "L": 24000 }
+  },
+  {
+    "id": "ts-bi-dao",
+    "category": "Trà sữa",
+    "name": "Trà sữa bí đao",
+    "prices": { "M": 17000, "L": 22000 }
   }
 ]

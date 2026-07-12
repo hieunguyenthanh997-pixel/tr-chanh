@@ -1,7 +1,13 @@
 [
-  { "id": "tran-chau-den", "name": "Trân châu đen", "price": 5000 },
-  { "id": "tran-chau-trang", "name": "Trân châu trắng (bạch quả)", "price": 5000 },
-  { "id": "thach-dua", "name": "Thạch dừa", "price": 5000 },
-  { "id": "pudding", "name": "Pudding trứng", "price": 6000 },
-  { "id": "kem-cheese", "name": "Kem cheese", "price": 8000 }
+  { "id": "tran-chau-gia-truyen", "name": "Trân châu gia truyền", "price": 5000 },
+  { "id": "cheese-ball", "name": "Cheese ball (1 viên)", "price": 3000 },
+  { "id": "thach-la-dua", "name": "Thạch lá dứa", "price": 3000 },
+  { "id": "thach-cu-nang", "name": "Thạch củ năng", "price": 7000 },
+  { "id": "thach-pho-mai-la-dua", "name": "Thạch phô mai lá dứa", "price": 6000 },
+  { "id": "thach-giot-nuoc", "name": "Thạch giọt nước", "price": 5000 },
+  { "id": "pudding-trung-sua", "name": "Pudding trứng sữa", "price": 5000 },
+  { "id": "pudding-socola", "name": "Pudding socola", "price": 5000 },
+  { "id": "thach-dua-gion", "name": "Thạch dừa giòn", "price": 5000 },
+  { "id": "thach-trai-thom", "name": "Thạch trái thơm", "price": 5000 },
+  { "id": "thach-suong-sao", "name": "Thạch sương sáo", "price": 5000 }
 ]
