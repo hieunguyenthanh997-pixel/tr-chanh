@@ -1,4 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  
+  <defs>
+    <radialGradient id="iris" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0%" stop-color="#8a5560"/>
+      <stop offset="55%" stop-color="#5c333e"/>
+      <stop offset="100%" stop-color="#241419"/>
+    </radialGradient>
+    <linearGradient id="hairG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6d4348"/>
+      <stop offset="60%" stop-color="#4a2a2e"/>
+      <stop offset="100%" stop-color="#391f24"/>
+    </linearGradient>
+    <linearGradient id="dressG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff69ab"/>
+      <stop offset="100%" stop-color="#e0357f"/>
+    </linearGradient>
+    <radialGradient id="blushG">
+      <stop offset="0%" stop-color="#ff8fbc" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff8fbc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
   <defs>
     <path id="arcTop" d="M 512,512 m -395,0 a 395,395 0 1 1 790,0" />
     <path id="arcBottom" d="M 512,512 m -395,0 a 395,395 0 1 0 790,0" />
@@ -12,81 +34,104 @@
   <text font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffc1d9" letter-spacing="6">
     <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">TRÀ CHANH ♥ TRÀ SỮA</textPath>
   </text>
-  <g transform="translate(512,522) scale(0.92) translate(-512,-522)">
+  <g transform="translate(512,524) scale(0.9) translate(-512,-524)">
   
-  <g stroke="#2a1a22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
-    <!-- braided pigtails: chains of circles -->
-    <circle cx="290" cy="510" r="40" fill="#4a2a2e"/>
-    <circle cx="286" cy="580" r="32" fill="#4a2a2e"/>
-    <circle cx="282" cy="638" r="24" fill="#4a2a2e"/>
-    <circle cx="734" cy="510" r="40" fill="#4a2a2e"/>
-    <circle cx="738" cy="580" r="32" fill="#4a2a2e"/>
-    <circle cx="742" cy="638" r="24" fill="#4a2a2e"/>
+  <g stroke="#241419" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- braided pigtails -->
+    <g fill="url(#hairG)">
+      <circle cx="288" cy="512" r="41"/>
+      <circle cx="283" cy="582" r="33"/>
+      <circle cx="279" cy="640" r="24"/>
+      <circle cx="736" cy="512" r="41"/>
+      <circle cx="741" cy="582" r="33"/>
+      <circle cx="745" cy="640" r="24"/>
+    </g>
+    <!-- braid strand lines -->
+    <path d="M 268,492 q 20,18 40,2 M 264,562 q 18,16 36,2 M 262,622 q 14,13 28,2" fill="none" stroke-width="6" opacity="0.55"/>
+    <path d="M 716,492 q 20,18 40,2 M 724,562 q 18,16 36,2 M 734,622 q 14,13 28,2" fill="none" stroke-width="6" opacity="0.55"/>
 
     <!-- head -->
-    <circle cx="512" cy="460" r="170" fill="#ffdcc5"/>
+    <circle cx="512" cy="462" r="170" fill="#ffdcc5"/>
 
     <!-- hair cap with scalloped bangs -->
-    <path d="M 338,500 Q 330,272 512,268 Q 694,272 686,500
-             Q 662,438 630,452 Q 610,398 566,428 Q 544,388 512,418
-             Q 480,388 458,428 Q 414,398 394,452 Q 362,438 338,500 Z" fill="#4a2a2e"/>
+    <path d="M 338,502 Q 328,272 512,268 Q 696,272 686,502
+             Q 664,438 630,454 Q 610,398 566,430 Q 544,388 512,420
+             Q 480,388 458,430 Q 414,398 394,454 Q 360,438 338,502 Z" fill="url(#hairG)"/>
+    <!-- hair shine -->
+    <path d="M 400,330 Q 500,282 620,322 Q 560,306 500,318 Q 440,330 400,330 Z" fill="#8a575d" stroke="none" opacity="0.9"/>
 
     <!-- hair bows -->
     <g fill="#ff4f9a">
-      <path d="M 298,452 L 262,430 Q 250,452 262,474 Z"/>
-      <path d="M 298,452 L 334,430 Q 346,452 334,474 Z"/>
-      <circle cx="298" cy="452" r="10"/>
+      <path d="M 298,450 L 260,426 Q 246,450 260,474 Z"/>
+      <path d="M 298,450 L 336,426 Q 350,450 336,474 Z"/>
+      <circle cx="298" cy="450" r="11"/>
     </g>
     <g fill="#ff4f9a">
-      <path d="M 726,452 L 690,430 Q 678,452 690,474 Z"/>
-      <path d="M 726,452 L 762,430 Q 774,452 762,474 Z"/>
-      <circle cx="726" cy="452" r="10"/>
+      <path d="M 726,450 L 688,426 Q 674,450 688,474 Z"/>
+      <path d="M 726,450 L 764,426 Q 778,450 764,474 Z"/>
+      <circle cx="726" cy="450" r="11"/>
     </g>
 
-    <!-- dress -->
-    <path d="M 434,618 Q 512,598 590,618 L 626,780 Q 512,808 398,780 Z" fill="#ff4f9a"/>
+    <!-- dress with frill -->
+    <path d="M 434,620 Q 512,600 590,620 L 628,782 Q 512,812 396,782 Z" fill="url(#dressG)"/>
+    <path d="M 396,782 Q 421,796 446,784 Q 468,800 490,786 Q 512,802 534,786 Q 556,800 578,784 Q 603,796 628,782 Q 570,806 512,806 Q 454,806 396,782 Z" fill="#fff" stroke-width="6"/>
     <!-- sleeves -->
-    <circle cx="424" cy="646" r="26" fill="#ff4f9a"/>
-    <circle cx="600" cy="646" r="26" fill="#ff4f9a"/>
+    <circle cx="422" cy="648" r="27" fill="url(#dressG)"/>
+    <circle cx="602" cy="648" r="27" fill="url(#dressG)"/>
     <!-- feet with shoes -->
-    <ellipse cx="466" cy="806" rx="30" ry="17" fill="#ff87b8"/>
-    <ellipse cx="558" cy="806" rx="30" ry="17" fill="#ff87b8"/>
+    <ellipse cx="464" cy="812" rx="30" ry="17" fill="#ff87b8"/>
+    <ellipse cx="560" cy="812" rx="30" ry="17" fill="#ff87b8"/>
   </g>
 
   <!-- collar -->
-  <path d="M 472,612 Q 512,640 552,612 Q 532,600 512,602 Q 492,600 472,612 Z" fill="#fff" stroke="#2a1a22" stroke-width="7"/>
+  <path d="M 470,614 Q 512,644 554,614 Q 533,601 512,603 Q 491,601 470,614 Z" fill="#fff" stroke="#241419" stroke-width="7"/>
 
-  <!-- dress dots -->
-  <g fill="#fff" opacity="0.85">
-    <circle cx="440" cy="700" r="8"/><circle cx="512" cy="740" r="8"/>
-    <circle cx="584" cy="700" r="8"/><circle cx="470" cy="765" r="8"/>
-    <circle cx="560" cy="768" r="8"/>
+  <!-- dress fold shading -->
+  <g fill="#e0357f" opacity="0.5" stroke="none">
+    <path d="M 452,640 L 444,762 L 462,764 Z"/>
+    <path d="M 572,640 L 580,762 L 562,764 Z"/>
   </g>
 
   <!-- face -->
   <g stroke="none">
-    <ellipse cx="448" cy="478" rx="27" ry="37" fill="#2a1a22"/>
-    <ellipse cx="576" cy="478" rx="27" ry="37" fill="#2a1a22"/>
-    <circle cx="457" cy="464" r="11" fill="#fff"/>
-    <circle cx="585" cy="464" r="11" fill="#fff"/>
-    <circle cx="441" cy="492" r="5" fill="#fff"/>
-    <circle cx="569" cy="492" r="5" fill="#fff"/>
-    <ellipse cx="404" cy="530" rx="28" ry="16" fill="#ff9ec4" opacity="0.85"/>
-    <ellipse cx="620" cy="530" rx="28" ry="16" fill="#ff9ec4" opacity="0.85"/>
-    <path d="M 490,528 Q 512,552 534,528" fill="none" stroke="#2a1a22" stroke-width="8" stroke-linecap="round"/>
+    <!-- eyebrows -->
+    
+    
+    <ellipse cx="448" cy="480" rx="31" ry="41" fill="#fff"/>
+    <ellipse cx="448" cy="482" rx="25" ry="36" fill="url(#iris)"/>
+    <ellipse cx="448" cy="488" rx="11" ry="17" fill="#12080c"/>
+    <circle cx="439" cy="466" r="10" fill="#fff"/>
+    <circle cx="458" cy="498" r="4.5" fill="#fff" opacity="0.9"/>
+    <ellipse cx="448" cy="470" rx="25" ry="12" fill="#fff" opacity="0.12"/>
+    
+    
+    <ellipse cx="576" cy="480" rx="31" ry="41" fill="#fff"/>
+    <ellipse cx="576" cy="482" rx="25" ry="36" fill="url(#iris)"/>
+    <ellipse cx="576" cy="488" rx="11" ry="17" fill="#12080c"/>
+    <circle cx="567" cy="466" r="10" fill="#fff"/>
+    <circle cx="586" cy="498" r="4.5" fill="#fff" opacity="0.9"/>
+    <ellipse cx="576" cy="470" rx="25" ry="12" fill="#fff" opacity="0.12"/>
+    
+    <!-- blush -->
+    <ellipse cx="400" cy="535" rx="34" ry="20" fill="url(#blushG)"/>
+    <ellipse cx="624" cy="535" rx="34" ry="20" fill="url(#blushG)"/>
+    <!-- open happy mouth -->
+    <path d="M 488,528 Q 512,558 536,528 Q 512,545 488,528 Z" fill="#c2455e" stroke="#241419" stroke-width="6" stroke-linejoin="round"/>
+    <!-- nose dot -->
+    <circle cx="512" cy="512" r="3.5" fill="#f5c3a8"/>
   </g>
 
   <!-- boba cup -->
-  <g stroke="#2a1a22" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M 470,660 L 478,772 Q 512,784 546,772 L 554,660 Z" fill="#ffe9f2"/>
-    <path d="M 470,706 L 474,762 Q 512,774 550,762 L 554,706 Q 512,720 470,706 Z" fill="#ffc1d9" stroke="none"/>
-    <circle cx="494" cy="744" r="9" fill="#4a2a2e" stroke="none"/>
-    <circle cx="518" cy="754" r="9" fill="#4a2a2e" stroke="none"/>
-    <circle cx="537" cy="740" r="9" fill="#4a2a2e" stroke="none"/>
-    <ellipse cx="512" cy="658" rx="44" ry="13" fill="#fff"/>
-    <line x1="528" y1="656" x2="552" y2="608" stroke="#ff4f9a" stroke-width="13"/>
-    <circle cx="464" cy="708" r="22" fill="#ffdcc5"/>
-    <circle cx="560" cy="708" r="22" fill="#ffdcc5"/>
+  <g stroke="#241419" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 470,662 L 478,774 Q 512,786 546,774 L 554,662 Z" fill="#ffeaf3"/>
+    <path d="M 470,708 L 474,764 Q 512,776 550,764 L 554,708 Q 512,722 470,708 Z" fill="#ffc1d9" stroke="none"/>
+    <circle cx="494" cy="746" r="9" fill="#4a2a2e" stroke="none"/>
+    <circle cx="518" cy="756" r="9" fill="#4a2a2e" stroke="none"/>
+    <circle cx="537" cy="742" r="9" fill="#4a2a2e" stroke="none"/>
+    <ellipse cx="512" cy="660" rx="44" ry="13" fill="#fff"/>
+    <line x1="528" y1="658" x2="552" y2="610" stroke="#ff4f9a" stroke-width="13"/>
+    <circle cx="464" cy="710" r="22" fill="#ffdcc5"/>
+    <circle cx="560" cy="710" r="22" fill="#ffdcc5"/>
   </g>
 
   </g>
