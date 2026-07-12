@@ -1,11 +1,11 @@
 :root {
-  --brand: #ff7a59;
-  --brand-dark: #e35d3e;
-  --bg: #fff8f2;
-  --card: #ffffff;
-  --text: #2c1e1a;
-  --muted: #8a7a74;
-  --border: #f0e2d8;
+  --brand: #ff4f9a;
+  --brand-dark: #e0357f;
+  --bg: #141014;
+  --card: #221723;
+  --text: #f8eef4;
+  --muted: #bb98ab;
+  --border: #432c3d;
   --radius: 14px;
 }
 
@@ -89,13 +89,13 @@ body {
   justify-content: space-between;
   max-width: 528px;
   margin: 0 auto;
-  box-shadow: 0 8px 20px rgba(227, 93, 62, 0.35);
+  box-shadow: 0 8px 20px rgba(224, 53, 127, 0.45);
 }
 
 .drawer, .modal {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0,0,0,0.65);
   display: flex;
   align-items: flex-end;
   z-index: 50;
@@ -114,7 +114,7 @@ body {
 .modal-inner { border-radius: 18px; position: relative; }
 
 .drawer-header { display: flex; justify-content: space-between; align-items: center; }
-.icon-btn { background: none; border: none; font-size: 18px; padding: 6px; }
+.icon-btn { background: none; border: none; font-size: 18px; padding: 6px; color: var(--text); }
 .modal-close { position: absolute; top: 10px; right: 10px; }
 
 .cart-items { display: flex; flex-direction: column; gap: 10px; margin: 12px 0; }
@@ -125,7 +125,8 @@ body {
 
 #checkout-form { display: flex; flex-direction: column; gap: 12px; }
 #checkout-form label { font-size: 13px; color: var(--muted); display: flex; flex-direction: column; gap: 5px; }
-#checkout-form input { font-size: 15px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; color: var(--text); }
+#checkout-form input { font-size: 15px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 10px; color: var(--text); background: var(--card); }
+input[type="checkbox"], input[type="radio"] { accent-color: var(--brand); }
 .req { color: var(--brand-dark); }
 
 .payment-choice { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
@@ -152,6 +153,7 @@ body {
   border-radius: 999px;
   font-size: 14px;
   background: var(--card);
+  color: var(--text);
 }
 .chip.selected { background: var(--brand); color: #fff; border-color: var(--brand); }
 
@@ -161,7 +163,7 @@ body {
 
 .qty-row { display: flex; justify-content: space-between; align-items: center; }
 .qty-control { display: flex; align-items: center; gap: 14px; }
-.qty-control button { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: var(--card); font-size: 18px; }
+.qty-control button { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: var(--card); font-size: 18px; color: var(--text); }
 
 .success .success-icon { font-size: 42px; text-align: center; }
 .success h2 { text-align: center; margin: 8px 0 4px; }
