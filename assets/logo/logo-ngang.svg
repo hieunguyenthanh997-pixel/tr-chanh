@@ -23,18 +23,11 @@
   
   
   <g stroke="#241419" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-    <!-- braided pigtails -->
-    <g fill="url(#bumpG)">
-      <circle cx="288" cy="512" r="41"/>
-      <circle cx="283" cy="582" r="33"/>
-      <circle cx="279" cy="640" r="24"/>
-      <circle cx="736" cy="512" r="41"/>
-      <circle cx="741" cy="582" r="33"/>
-      <circle cx="745" cy="640" r="24"/>
+    <!-- woven braided pigtails -->
+    <g>
+      <ellipse cx="285" cy="492" rx="30" ry="21" transform="rotate(38 285 492)" fill="url(#bumpG)"/><ellipse cx="299" cy="524" rx="28" ry="20" transform="rotate(-38 299 524)" fill="url(#bumpG)"/><ellipse cx="285" cy="556" rx="26" ry="19" transform="rotate(38 285 556)" fill="url(#bumpG)"/><ellipse cx="299" cy="588" rx="24" ry="17" transform="rotate(-38 299 588)" fill="url(#bumpG)"/><ellipse cx="285" cy="618" rx="21" ry="15" transform="rotate(38 285 618)" fill="url(#bumpG)"/><ellipse cx="299" cy="646" rx="18" ry="13" transform="rotate(-38 299 646)" fill="url(#bumpG)"/><path d="M 278,664 Q 286,700 282,712 Q 292,694 306,666 Z" fill="url(#bumpG)"/>
+      <ellipse cx="739" cy="492" rx="30" ry="21" transform="rotate(-38 739 492)" fill="url(#bumpG)"/><ellipse cx="725" cy="524" rx="28" ry="20" transform="rotate(38 725 524)" fill="url(#bumpG)"/><ellipse cx="739" cy="556" rx="26" ry="19" transform="rotate(-38 739 556)" fill="url(#bumpG)"/><ellipse cx="725" cy="588" rx="24" ry="17" transform="rotate(38 725 588)" fill="url(#bumpG)"/><ellipse cx="739" cy="618" rx="21" ry="15" transform="rotate(-38 739 618)" fill="url(#bumpG)"/><ellipse cx="725" cy="646" rx="18" ry="13" transform="rotate(38 725 646)" fill="url(#bumpG)"/><path d="M 718,664 Q 738,700 742,712 Q 732,694 746,666 Z" fill="url(#bumpG)"/>
     </g>
-    <!-- braid strand lines -->
-    <path d="M 268,492 q 20,18 40,2 M 264,562 q 18,16 36,2 M 262,622 q 14,13 28,2" fill="none" stroke-width="6" opacity="0.55"/>
-    <path d="M 716,492 q 20,18 40,2 M 724,562 q 18,16 36,2 M 734,622 q 14,13 28,2" fill="none" stroke-width="6" opacity="0.55"/>
 
     <!-- head -->
     <circle cx="512" cy="462" r="170" fill="#ffdcc5"/>
