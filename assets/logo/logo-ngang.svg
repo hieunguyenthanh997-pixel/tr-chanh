@@ -49,6 +49,18 @@
       <path d="M 420,330 Q 470,300 540,302"/>
       <path d="M 450,352 Q 495,328 550,328"/>
     </g>
+    <!-- realistic hair strands -->
+    <g fill="none" stroke="#33191e" stroke-width="5" opacity="0.4" stroke-linecap="round">
+      <path d="M 512,274 Q 438,304 406,372"/>
+      <path d="M 512,274 Q 586,304 618,372"/>
+      <path d="M 512,272 Q 498,324 468,384"/>
+      <path d="M 512,272 Q 526,324 556,384"/>
+      <path d="M 418,322 Q 396,364 378,432"/>
+      <path d="M 606,322 Q 628,364 646,432"/>
+      <path d="M 452,432 q -8,26 -20,42"/>
+      <path d="M 512,422 q -2,28 -8,46"/>
+      <path d="M 572,432 q 8,26 20,42"/>
+    </g>
 
     <!-- hair bows -->
     <g fill="#ff4f9a">

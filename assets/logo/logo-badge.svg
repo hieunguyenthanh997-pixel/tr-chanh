@@ -25,13 +25,13 @@
     <path id="arcTop" d="M 512,512 m -395,0 a 395,395 0 1 1 790,0" />
     <path id="arcBottom" d="M 512,512 m -395,0 a 395,395 0 1 0 790,0" />
   </defs>
-  <circle cx="512" cy="512" r="500" fill="#141014"/>
+  <circle cx="512" cy="512" r="500" fill="#ffffff"/>
   <circle cx="512" cy="512" r="478" fill="none" stroke="#ff4f9a" stroke-width="16"/>
-  <circle cx="512" cy="512" r="335" fill="#221723" stroke="#ff87b8" stroke-width="6"/>
-  <text font-family="Arial, sans-serif" font-size="92" font-weight="bold" fill="#ff4f9a" letter-spacing="8">
+  <circle cx="512" cy="512" r="335" fill="#fff2f8" stroke="#ffb3d1" stroke-width="6"/>
+  <text font-family="Arial, sans-serif" font-size="92" font-weight="bold" fill="#e0357f" letter-spacing="8">
     <textPath href="#arcTop" startOffset="50%" text-anchor="middle">EM BÉ TÍT</textPath>
   </text>
-  <text font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffc1d9" letter-spacing="6">
+  <text font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ff4f9a" letter-spacing="6">
     <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">TRÀ CHANH ♥ TRÀ SỮA</textPath>
   </text>
   <g transform="translate(512,524) scale(0.9) translate(-512,-524)">
@@ -61,6 +61,18 @@
     <g fill="none" stroke="#7d4d52" stroke-width="9" stroke-linecap="round" opacity="0.55">
       <path d="M 420,330 Q 470,300 540,302"/>
       <path d="M 450,352 Q 495,328 550,328"/>
+    </g>
+    <!-- realistic hair strands -->
+    <g fill="none" stroke="#33191e" stroke-width="5" opacity="0.4" stroke-linecap="round">
+      <path d="M 512,274 Q 438,304 406,372"/>
+      <path d="M 512,274 Q 586,304 618,372"/>
+      <path d="M 512,272 Q 498,324 468,384"/>
+      <path d="M 512,272 Q 526,324 556,384"/>
+      <path d="M 418,322 Q 396,364 378,432"/>
+      <path d="M 606,322 Q 628,364 646,432"/>
+      <path d="M 452,432 q -8,26 -20,42"/>
+      <path d="M 512,422 q -2,28 -8,46"/>
+      <path d="M 572,432 q 8,26 20,42"/>
     </g>
 
     <!-- hair bows -->
