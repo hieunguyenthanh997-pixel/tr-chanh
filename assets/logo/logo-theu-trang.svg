@@ -1,32 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1200">
-  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
-    <!-- body -->
-    <path d="M 400,690 Q 400,610 512,610 Q 624,610 624,690 L 624,760 Q 624,800 512,800 Q 400,800 400,760 Z"/>
-    <ellipse cx="462" cy="800" rx="38" ry="22"/>
-    <ellipse cx="562" cy="800" rx="38" ry="22"/>
-    <!-- head -->
-    <circle cx="512" cy="450" r="175"/>
-    <path d="M 512,275 Q 512,215 570,225 Q 525,235 535,272"/>
-    <circle cx="340" cy="460" r="26"/>
-    <circle cx="684" cy="460" r="26"/>
-    <!-- cup -->
-    <path d="M 468,652 L 476,770 Q 512,782 548,770 L 556,652 Z"/>
-    <ellipse cx="512" cy="650" rx="46" ry="14"/>
-    <line x1="530" y1="648" x2="556" y2="596"/>
-    <circle cx="462" cy="700" r="24"/>
-    <circle cx="562" cy="700" r="24"/>
-    <!-- mouth -->
-    <path d="M 488,505 Q 512,528 536,505"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1240">
+  <g fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="290" cy="510" r="40"/><circle cx="286" cy="580" r="32"/><circle cx="282" cy="638" r="24"/>
+    <circle cx="734" cy="510" r="40"/><circle cx="738" cy="580" r="32"/><circle cx="742" cy="638" r="24"/>
+    <circle cx="512" cy="460" r="170"/>
+    <path d="M 338,500 Q 330,272 512,268 Q 694,272 686,500
+             Q 662,438 630,452 Q 610,398 566,428 Q 544,388 512,418
+             Q 480,388 458,428 Q 414,398 394,452 Q 362,438 338,500 Z"/>
+    <path d="M 298,452 L 262,430 Q 250,452 262,474 Z M 298,452 L 334,430 Q 346,452 334,474 Z"/>
+    <path d="M 726,452 L 690,430 Q 678,452 690,474 Z M 726,452 L 762,430 Q 774,452 762,474 Z"/>
+    <path d="M 434,618 Q 512,598 590,618 L 626,780 Q 512,808 398,780 Z"/>
+    <circle cx="424" cy="646" r="26"/><circle cx="600" cy="646" r="26"/>
+    <ellipse cx="466" cy="806" rx="30" ry="17"/><ellipse cx="558" cy="806" rx="30" ry="17"/>
+    <path d="M 472,612 Q 512,640 552,612 Q 532,600 512,602 Q 492,600 472,612 Z"/>
+    <path d="M 470,660 L 478,772 Q 512,784 546,772 L 554,660 Z"/>
+    <ellipse cx="512" cy="658" rx="44" ry="13"/>
+    <line x1="528" y1="656" x2="552" y2="608"/>
+    <circle cx="464" cy="708" r="22"/><circle cx="560" cy="708" r="22"/>
+    <path d="M 490,528 Q 512,552 534,528"/>
   </g>
-  <!-- eyes & pearls solid -->
   <g fill="#ffffff" stroke="none">
-    <ellipse cx="448" cy="450" rx="22" ry="30"/>
-    <ellipse cx="576" cy="450" rx="22" ry="30"/>
-    <circle cx="495" cy="735" r="9"/>
-    <circle cx="520" cy="748" r="9"/>
-    <circle cx="540" cy="732" r="9"/>
+    <ellipse cx="448" cy="478" rx="24" ry="33"/>
+    <ellipse cx="576" cy="478" rx="24" ry="33"/>
+    <circle cx="494" cy="740" r="9"/><circle cx="518" cy="750" r="9"/><circle cx="537" cy="736" r="9"/>
   </g>
-  <!-- wordmark -->
-  <text x="512" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" font-weight="bold" fill="#ffffff" letter-spacing="2">EM BÉ TÍT</text>
-  <text x="512" y="1090" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="bold" fill="#ffffff" letter-spacing="10">TRÀ CHANH ♥ TRÀ SỮA</text>
+  <text x="512" y="1040" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" font-weight="bold" fill="#ffffff" letter-spacing="2">EM BÉ TÍT</text>
+  <text x="512" y="1130" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="bold" fill="#ffffff" letter-spacing="10">TRÀ CHANH ♥ TRÀ SỮA</text>
 </svg>
