@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <path id="arcTop" d="M 512,512 m -395,0 a 395,395 0 1 1 790,0" />
+    <path id="arcBottom" d="M 512,512 m -395,0 a 395,395 0 1 0 790,0" />
+  </defs>
+
+  <!-- badge -->
+  <circle cx="512" cy="512" r="500" fill="#141014"/>
+  <circle cx="512" cy="512" r="478" fill="none" stroke="#ff4f9a" stroke-width="16"/>
+  <circle cx="512" cy="512" r="330" fill="#221723" stroke="#ff87b8" stroke-width="6"/>
+
+  <!-- arc text -->
+  <text font-family="Arial, sans-serif" font-size="92" font-weight="bold" fill="#ff4f9a" letter-spacing="8">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">EM BÉ TÍT</textPath>
+  </text>
+  <text font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffc1d9" letter-spacing="6">
+    <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">TRÀ CHANH ♥ TRÀ SỮA</textPath>
+  </text>
+
+  <!-- mascot -->
+  <g stroke="#2a1a22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- body / romper -->
+    <path d="M 400,690 Q 400,610 512,610 Q 624,610 624,690 L 624,760 Q 624,800 512,800 Q 400,800 400,760 Z" fill="#ff4f9a"/>
+    <!-- feet -->
+    <ellipse cx="462" cy="800" rx="38" ry="22" fill="#ffdcc5"/>
+    <ellipse cx="562" cy="800" rx="38" ry="22" fill="#ffdcc5"/>
+
+    <!-- head -->
+    <circle cx="512" cy="450" r="175" fill="#ffdcc5"/>
+    <!-- hair curl "tít" -->
+    <path d="M 512,275 Q 512,215 570,225 Q 525,235 535,272" fill="#3a2430"/>
+    <!-- ears -->
+    <circle cx="340" cy="460" r="26" fill="#ffdcc5"/>
+    <circle cx="684" cy="460" r="26" fill="#ffdcc5"/>
+  </g>
+
+  <!-- face (no outline) -->
+  <g stroke="none">
+    <!-- eyes -->
+    <ellipse cx="448" cy="450" rx="24" ry="32" fill="#2a1a22"/>
+    <ellipse cx="576" cy="450" rx="24" ry="32" fill="#2a1a22"/>
+    <circle cx="456" cy="438" r="9" fill="#fff"/>
+    <circle cx="584" cy="438" r="9" fill="#fff"/>
+    <!-- blush -->
+    <ellipse cx="410" cy="505" rx="28" ry="16" fill="#ff9ec4" opacity="0.8"/>
+    <ellipse cx="614" cy="505" rx="28" ry="16" fill="#ff9ec4" opacity="0.8"/>
+    <!-- mouth -->
+    <path d="M 488,505 Q 512,528 536,505" fill="none" stroke="#2a1a22" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- bubble tea cup held in front -->
+  <g stroke="#2a1a22" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 468,652 L 476,770 Q 512,782 548,770 L 556,652 Z" fill="#ffe9f2"/>
+    <path d="M 468,700 L 472,760 Q 512,772 552,760 L 556,700 Q 512,715 468,700 Z" fill="#ffc1d9" stroke="none"/>
+    <circle cx="492" cy="742" r="9" fill="#3a2430" stroke="none"/>
+    <circle cx="518" cy="752" r="9" fill="#3a2430" stroke="none"/>
+    <circle cx="538" cy="738" r="9" fill="#3a2430" stroke="none"/>
+    <ellipse cx="512" cy="650" rx="46" ry="14" fill="#fff"/>
+    <line x1="530" y1="648" x2="556" y2="596" stroke="#ff4f9a" stroke-width="14"/>
+    <!-- hands -->
+    <circle cx="462" cy="700" r="24" fill="#ffdcc5"/>
+    <circle cx="562" cy="700" r="24" fill="#ffdcc5"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1200">
+  <g fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- body -->
+    <path d="M 400,690 Q 400,610 512,610 Q 624,610 624,690 L 624,760 Q 624,800 512,800 Q 400,800 400,760 Z"/>
+    <ellipse cx="462" cy="800" rx="38" ry="22"/>
+    <ellipse cx="562" cy="800" rx="38" ry="22"/>
+    <!-- head -->
+    <circle cx="512" cy="450" r="175"/>
+    <path d="M 512,275 Q 512,215 570,225 Q 525,235 535,272"/>
+    <circle cx="340" cy="460" r="26"/>
+    <circle cx="684" cy="460" r="26"/>
+    <!-- cup -->
+    <path d="M 468,652 L 476,770 Q 512,782 548,770 L 556,652 Z"/>
+    <ellipse cx="512" cy="650" rx="46" ry="14"/>
+    <line x1="530" y1="648" x2="556" y2="596"/>
+    <circle cx="462" cy="700" r="24"/>
+    <circle cx="562" cy="700" r="24"/>
+    <!-- mouth -->
+    <path d="M 488,505 Q 512,528 536,505"/>
+  </g>
+  <!-- eyes & pearls solid -->
+  <g fill="#ffffff" stroke="none">
+    <ellipse cx="448" cy="450" rx="22" ry="30"/>
+    <ellipse cx="576" cy="450" rx="22" ry="30"/>
+    <circle cx="495" cy="735" r="9"/>
+    <circle cx="520" cy="748" r="9"/>
+    <circle cx="540" cy="732" r="9"/>
+  </g>
+  <!-- wordmark -->
+  <text x="512" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" font-weight="bold" fill="#ffffff" letter-spacing="2">EM BÉ TÍT</text>
+  <text x="512" y="1090" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="bold" fill="#ffffff" letter-spacing="10">TRÀ CHANH ♥ TRÀ SỮA</text>
+</svg>
