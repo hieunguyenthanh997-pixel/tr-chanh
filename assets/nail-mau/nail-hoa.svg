@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <defs>
+    <clipPath id="nailClip"><path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z"/></clipPath>
+
+    <linearGradient id="ruby" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#D62450"/><stop offset="0.6" stop-color="#A31238"/><stop offset="1" stop-color="#750B26"/>
+    </linearGradient>
+    <linearGradient id="catStreak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9DB0" stop-opacity="0"/><stop offset="0.5" stop-color="#FFC2CE" stop-opacity="0.9"/><stop offset="1" stop-color="#FF9DB0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F9EBBC"/><stop offset="0.5" stop-color="#DCAC50"/><stop offset="1" stop-color="#B9852F"/>
+    </linearGradient>
+    <filter id="soft3" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <rect width="900" height="640" fill="#FFF9F2"/>
+  <rect x="14" y="14" width="872" height="612" rx="26" fill="none" stroke="#A31238" stroke-width="2.5" opacity="0.55"/>
+  <rect x="24" y="24" width="852" height="592" rx="20" fill="none" stroke="#A31238" stroke-width="1" opacity="0.35"/>
+  <circle cx="80" cy="560" r="46" fill="#F8DDE3" opacity="0.55"/><circle cx="830" cy="80" r="38" fill="#F8DDE3" opacity="0.55"/>
+
+  <text x="450" y="96" text-anchor="middle" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="44" font-weight="700" fill="#4A3728">Cat-Eye Đỏ May Mắn</text>
+  <text x="450" y="136" text-anchor="middle" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="22" font-weight="600" fill="#A31238">Mệnh Hoả  •  trend velvet cat-eye</text>
+
+  <path d="M120 78 C122.16 87.84 122.16 87.84 132 90 C122.16 92.16 122.16 92.16 120 102 C117.84 92.16 117.84 92.16 108 90 C117.84 87.84 117.84 87.84 120 78 Z" fill="#A31238" opacity="0.8"/>
+  <path d="M780 78 C782.16 87.84 782.16 87.84 792 90 C782.16 92.16 782.16 92.16 780 102 C777.84 92.16 777.84 92.16 768 90 C777.84 87.84 777.84 87.84 780 78 Z" fill="#A31238" opacity="0.8"/>
+  <path d="M150 112 C151.08 116.92 151.08 116.92 156 118 C151.08 119.08 151.08 119.08 150 124 C148.92 119.08 148.92 119.08 144 118 C148.92 116.92 148.92 116.92 150 112 Z" fill="#A31238" opacity="0.5"/>
+  <path d="M750 112 C751.08 116.92 751.08 116.92 756 118 C751.08 119.08 751.08 119.08 750 124 C748.92 119.08 748.92 119.08 744 118 C748.92 116.92 748.92 116.92 750 112 Z" fill="#A31238" opacity="0.5"/>
+
+  <ellipse cx="450" cy="472" rx="290" ry="26" fill="#F8DDE3" opacity="0.6"/>
+
+  <g transform="translate(188 295) scale(1)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#ruby)"/><ellipse cx="42" cy="70" rx="52" ry="9" fill="url(#catStreak)" transform="rotate(-24 42 70)" filter="url(#soft3)"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#DDB2BC" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(294 283) scale(1.08)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="#F6E9DE"/>
+   <path d="M0 60 C0 22 18 0 42 0 C66 0 84 22 84 60 C62 46 22 46 0 60 Z" fill="url(#goldH)"/>
+   <circle cx="22" cy="26" r="1.8" fill="#FFF6D8"/><circle cx="46" cy="14" r="1.6" fill="#FFF6D8"/><circle cx="62" cy="34" r="1.8" fill="#FFF6D8"/><circle cx="38" cy="38" r="1.4" fill="#FFF6D8"/>
+   <path d="M2 62 C24 48 60 48 82 62" fill="none" stroke="#B9852F" stroke-width="2" opacity="0.6"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#DDB2BC" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(407 274) scale(1.14)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#ruby)"/><ellipse cx="42" cy="70" rx="52" ry="9" fill="url(#catStreak)" transform="rotate(-24 42 70)" filter="url(#soft3)"/>
+   <path d="M58 33 C59.26 38.74 59.26 38.74 65 40 C59.26 41.26 59.26 41.26 58 47 C56.74 41.26 56.74 41.26 51 40 C56.74 38.74 56.74 38.74 58 33 Z" fill="#FFD9A6" opacity="0.95"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#DDB2BC" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(525 286) scale(1.06)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#ruby)"/>
+   <path d="M42 78 C36 68 24 68 24 78 C24 87 36 93 42 99 C48 93 60 87 60 78 C60 68 48 68 42 78 Z" fill="url(#goldH)"/>
+   <path d="M32 74 C34 71 38 71 39 74" fill="none" stroke="#FFF6D8" stroke-width="1.6" stroke-linecap="round"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#DDB2BC" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(636 307) scale(0.92)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#ruby)"/>
+   <path d="M30 36 C31.44 42.56 31.44 42.56 38 44 C31.44 45.44 31.44 45.44 30 52 C28.56 45.44 28.56 45.44 22 44 C28.56 42.56 28.56 42.56 30 36 Z" fill="#FFD9A6" opacity="0.9"/><path d="M54 78 C55.08 82.92 55.08 82.92 60 84 C55.08 85.08 55.08 85.08 54 90 C52.92 85.08 52.92 85.08 48 84 C52.92 82.92 52.92 82.92 54 78 Z" fill="#FFC2CE" opacity="0.8"/><path d="M38 111 C39.26 116.74 39.26 116.74 45 118 C39.26 119.26 39.26 119.26 38 125 C36.74 119.26 36.74 119.26 31 118 C36.74 116.74 36.74 116.74 38 111 Z" fill="#FFD9A6" opacity="0.85"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#DDB2BC" stroke-width="2.5"/>
+  </g>
+
+  <text x="450" y="540" text-anchor="middle" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="20" font-weight="600" fill="#6B5540">Hợp mệnh Hoả &amp; Thổ — đỏ ruby, hồng, vàng kim rước hỷ khí năm Bính Ngọ 2026</text>
+  <g>
+    <circle cx="330" cy="568" r="11" fill="#D62450" stroke="#C9B49A" stroke-width="1.5"/>
+    <circle cx="364" cy="568" r="11" fill="#750B26" stroke="#C9B49A" stroke-width="1.5"/>
+    <circle cx="398" cy="568" r="11" fill="#DCAC50" stroke="#C9B49A" stroke-width="1.5"/>
+    <text x="436" y="574" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="17" fill="#8A7460">bảng màu may mắn</text>
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <defs>
+    <clipPath id="nailClip"><path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z"/></clipPath>
+
+    <linearGradient id="pearl" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#FFFEFB"/><stop offset="0.55" stop-color="#F4EDE1"/><stop offset="1" stop-color="#E9DFCE"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F9EBBC"/><stop offset="0.5" stop-color="#DCAC50"/><stop offset="1" stop-color="#B9852F"/>
+    </linearGradient>
+    <linearGradient id="chromeSilver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="0.45" stop-color="#D5DCE5"/><stop offset="0.7" stop-color="#F3F6F9"/><stop offset="1" stop-color="#C4CBD6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="640" fill="#FFF9F2"/>
+  <rect x="14" y="14" width="872" height="612" rx="26" fill="none" stroke="#B9852F" stroke-width="2.5" opacity="0.55"/>
+  <rect x="24" y="24" width="852" height="592" rx="20" fill="none" stroke="#B9852F" stroke-width="1" opacity="0.35"/>
+  <circle cx="80" cy="560" r="46" fill="#F0E4D0" opacity="0.5"/><circle cx="830" cy="80" r="38" fill="#F0E4D0" opacity="0.5"/>
+
+  <text x="450" y="96" text-anchor="middle" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="44" font-weight="700" fill="#4A3728">Glazed Chrome Ánh Kim</text>
+  <text x="450" y="136" text-anchor="middle" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="22" font-weight="600" fill="#B9852F">Mệnh Kim  •  trend chrome / glazed donut</text>
+
+  <path d="M120 78 C122.16 87.84 122.16 87.84 132 90 C122.16 92.16 122.16 92.16 120 102 C117.84 92.16 117.84 92.16 108 90 C117.84 87.84 117.84 87.84 120 78 Z" fill="#B9852F" opacity="0.8"/>
+  <path d="M780 78 C782.16 87.84 782.16 87.84 792 90 C782.16 92.16 782.16 92.16 780 102 C777.84 92.16 777.84 92.16 768 90 C777.84 87.84 777.84 87.84 780 78 Z" fill="#B9852F" opacity="0.8"/>
+  <path d="M150 112 C151.08 116.92 151.08 116.92 156 118 C151.08 119.08 151.08 119.08 150 124 C148.92 119.08 148.92 119.08 144 118 C148.92 116.92 148.92 116.92 150 112 Z" fill="#B9852F" opacity="0.5"/>
+  <path d="M750 112 C751.08 116.92 751.08 116.92 756 118 C751.08 119.08 751.08 119.08 750 124 C748.92 119.08 748.92 119.08 744 118 C748.92 116.92 748.92 116.92 750 112 Z" fill="#B9852F" opacity="0.5"/>
+
+  <ellipse cx="450" cy="472" rx="290" ry="26" fill="#F0E4D0" opacity="0.6"/>
+
+  <g transform="translate(188 295) scale(1)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#pearl)"/>
+   <rect width="84" height="150" fill="url(#chromeSilver)" opacity="0.35"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#C9B49A" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(294 283) scale(1.08)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="#F6EFE3"/>
+   <path d="M0 60 C0 22 18 0 42 0 C66 0 84 22 84 60 C62 46 22 46 0 60 Z" fill="url(#gold)"/>
+   <path d="M2 62 C24 48 60 48 82 62" fill="none" stroke="#B9852F" stroke-width="2" opacity="0.6"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#C9B49A" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(407 274) scale(1.14)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#pearl)"/>
+   <path d="M18 40 l7 -2.8000000000000003 l4.2 7 l-7 3.5 Z" fill="url(#gold)"/><path d="M52 26 l5 -2 l3 5 l-5 2.5 Z" fill="url(#gold)"/><path d="M60 78 l8 -3.2 l4.8 8 l-8 4 Z" fill="url(#gold)"/><path d="M26 104 l5 -2 l3 5 l-5 2.5 Z" fill="url(#gold)"/><path d="M44 128 l6 -2.4000000000000004 l3.5999999999999996 6 l-6 3 Z" fill="url(#gold)"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#C9B49A" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(525 286) scale(1.06)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#chromeSilver)"/>
+   <path d="M42 51 C43.98 60.02 43.98 60.02 53 62 C43.98 63.98 43.98 63.98 42 73 C40.02 63.98 40.02 63.98 31 62 C40.02 60.02 40.02 60.02 42 51 Z" fill="#DCAC50" opacity="1"/>
+   <circle cx="24" cy="96" r="3.4" fill="#DCAC50"/><circle cx="60" cy="100" r="3.4" fill="#DCAC50"/><circle cx="42" cy="122" r="2.6" fill="#DCAC50"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#C9B49A" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(636 307) scale(0.92)">
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="#FFFFFF"/>
+    <g clip-path="url(#nailClip)">
+<rect width="84" height="150" fill="url(#gold)"/>
+   <path d="M20 20 C30 8 50 6 62 14 C50 22 40 40 36 60 C32 80 22 84 16 78 C12 62 14 34 20 20 Z" fill="#FFF6D8" opacity="0.55"/>
+   <path d="M14 26 C20 12 32 6 44 6 C36 16 30 30 28 48 C26 66 18 74 12 70 C8 60 10 40 14 26 Z" fill="#FFFFFF" opacity="0.45"/>
+  <ellipse cx="24" cy="96" rx="6" ry="14" fill="#FFFFFF" opacity="0.18"/>
+    </g>
+    <path d="M42 0 C66 0 84 22 84 58 L84 132 C84 143 75 150 64 150 L20 150 C9 150 0 143 0 132 L0 58 C0 22 18 0 42 0 Z" fill="none" stroke="#C9B49A" stroke-width="2.5"/>
+  </g>
+
+  <text x="450" y="540" text-anchor="middle" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="20" font-weight="600" fill="#6B5540">Hợp mệnh Kim &amp; Thuỷ — trắng sữa, ánh bạc, vàng đồng chiêu tài lộc</text>
+  <g>
+    <circle cx="330" cy="568" r="11" fill="#FFFEFB" stroke="#C9B49A" stroke-width="1.5"/>
+    <circle cx="364" cy="568" r="11" fill="#D5DCE5" stroke="#C9B49A" stroke-width="1.5"/>
+    <circle cx="398" cy="568" r="11" fill="#DCAC50" stroke="#C9B49A" stroke-width="1.5"/>
+    <text x="436" y="574" font-family="'Baloo 2','Quicksand','Segoe UI',sans-serif" font-size="17" fill="#8A7460">bảng màu may mắn</text>
+  </g>
+</svg>
